@@ -119,3 +119,46 @@
   font-size: 9px;
   font-style: italic;
 }
+#quotes {
+  display: flex;             
+  align-items: flex-start;    
+  gap: 40px;                  
+  padding: 70px 350px 100px 350px;
+  background-color: #C271FF;
+  width: 100%;           /* fills full horizontal space */
+  box-sizing: border-box;
+}
+
+#quotes img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  padding-bottom: 20px, 0px, 20px, 0px;
+}
+
+.text {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  flex: 1;
+}
+
+.text blockquote h4 {
+  margin: 0 0 10px 0;
+  padding: 20px, 0px 0px, 0px;
+  line-height: 1.4;
+  font-size: 12px;
+  font-weight: 50;
+}
+
+.text h3 {
+  margin: 20px 0 2px 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.text p {
+  margin: 2px 0 5px 0;
+  font-size: 12px;
+  font-style: italic;
+}
