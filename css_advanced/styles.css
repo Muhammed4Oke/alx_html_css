@@ -256,7 +256,7 @@
   font-size: 12px;
   color: #C271FF;
 }
-/* #membership {
+ #membership {
   background-color: 071629;
   padding: 50px 0;
   text-align: center;
@@ -270,23 +270,54 @@
   font-size: 32px;
   margin-bottom: 20px;
 }
+ .membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.highlight {
+  color: #C271FF;
+}
+
+.membership-items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
 .membership-item {
   display: flex;
-  flex-direction: column; 
-  /* align-items: center; 
-  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
 }
 
 .membership-item img {
-  height: 44px;
-  width: 36px;
-  margin-left: 100px;
-  margin-bottom: 10px;    
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.membership-item h3 {
+  color: #C271FF;
+  margin-bottom: 10px;
 }
 
 .membership-item p {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
-  margin-left: 20px;
+  color: white;
   text-align: center;
-} */
+}
+
+.register-btn {
+  margin-top: 40px;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
