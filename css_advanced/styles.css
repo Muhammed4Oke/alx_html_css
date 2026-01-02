@@ -321,3 +321,41 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.faq {
+  background-color: #F2F2F2;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #071629;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  color: #071629;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #071629;
+}
