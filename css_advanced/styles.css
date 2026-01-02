@@ -359,3 +359,35 @@
   line-height: 1.6;
   color: #071629;
 }
+#footer {
+  display: flex;
+  gap: 900px;
+  flex-direction: row;
+  background-color: #071629;
+  color: white;
+  padding: 30px 0;
+  margin-top: 30px;
+  
+}
+#footer img {
+  width: 100px;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-left: 100px;
+  height: 24px;
+}
+#social-icons {
+  color: white;
+  font-size: 24px;
+}
+
+#social-icons a {
+  color: white;
+  margin: 10px;
+}
+#copy{
+  background-color:#071629 ;
+  color: #4d4646;
+  text-align: center;
+  padding-bottom: 20px;
+}
